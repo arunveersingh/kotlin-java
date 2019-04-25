@@ -11,7 +11,7 @@ interface IDataObject2 {
 }
 
 
-/*
+/*test
 interface IDataObject2 {
     companion object {
 
