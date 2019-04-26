@@ -1,5 +1,11 @@
 package base
 
-class A {
+open class A {
+
+    fun A(){
+
+    }
+
+
     var attribute : String? = null
 }
