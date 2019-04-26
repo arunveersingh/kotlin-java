@@ -1,4 +1,4 @@
-package nullandexceptions
+package nullsandexceptions.letusage
 
 import base.A
 
