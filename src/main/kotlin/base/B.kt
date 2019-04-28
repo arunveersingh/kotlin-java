@@ -1,3 +1,7 @@
 package base
 
-class B : A()
+class B : A(){
+    fun inB(){
+        println("in inB")
+    }
+}
