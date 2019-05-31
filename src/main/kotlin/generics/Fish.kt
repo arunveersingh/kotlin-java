@@ -1,5 +1,5 @@
 package generics
 
-class Fish() : Pet() {
+class Fish(override var name: String) : Pet() {
 
 }

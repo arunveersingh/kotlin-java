@@ -1,6 +1,5 @@
 package generics
 
-class Dog : Pet {
+class Dog(override var name: String) : Pet() {
 
-    constructor()
 }
