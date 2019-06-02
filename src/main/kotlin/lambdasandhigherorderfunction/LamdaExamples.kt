@@ -1,4 +1,4 @@
-package lamdaandhighorderfunction
+package lambdasandhigherorderfunction
 
 fun `function accepting lambda`(x: String, converter: (String) -> Int) {
     println("output is ${converter.invoke(x)}")
@@ -23,13 +23,13 @@ fun main() {
 
     val myLambda: () -> Unit = { println("printing, that's it!!") }
 
-    `function accepting lambda`("arun", {x-> x.length})
+    `function accepting lambda`("arun", { x -> x.length })
 
-    `function accepting lambda`("arun", {x-> x.length + 1})
+    `function accepting lambda`("arun", { x -> x.length + 1 })
 
     `function accepting lambda`("arunveer", lengthOfString)
 
     // I don't know whats the benefit of this ... don't go bananas over it
-    `function accepting lambda`("arun") {x-> x.length + 1}
+    `function accepting lambda`("arun") { x -> x.length + 1 }
 
 }
