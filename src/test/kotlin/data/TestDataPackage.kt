@@ -7,6 +7,7 @@ class TestDataClassConcepts{
 
     @Test
     fun testDataObjectCreation(){
+
         var dObject = DataObject("first")
         Assert.assertNotNull(dObject)
         Assert.assertEquals(dObject.type, "first")
