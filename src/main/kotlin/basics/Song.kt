@@ -1,3 +1,5 @@
+package basics
+
 class Song(val title: String, val artist: String){
 
     fun play(){
@@ -12,7 +14,7 @@ class Song(val title: String, val artist: String){
 
 
 fun main(){
-    val song: Song = Song("Tu Laung main Elaaichi :)", "Tulsi Kumar")
+    val song: Song = Song("Tu Laung basics.main Elaaichi :)", "Tulsi Kumar")
     song.play()
     song.stop()
 }

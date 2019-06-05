@@ -1,3 +1,5 @@
+package basics
+
 class Kangaroo : Animal(){
 
     override val image: String
@@ -14,6 +16,6 @@ class Kangaroo : Animal(){
 fun main() {
 
     var kagaroo = Kangaroo()
-    //var kang = Animal()
+    //var kang = basics.Animal()
 
 }

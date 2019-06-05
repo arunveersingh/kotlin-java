@@ -92,9 +92,9 @@ fun main(){
 
     // This will throw exception as w is null
     // Exception like:
-    // Exception in thread "main" kotlin.KotlinNullPointerException
-    //	at nullsandexceptions.nullvalues.WolfKt.main(Wolf.kt:55)
-    //	at nullsandexceptions.nullvalues.WolfKt.main(Wolf.kt)
+    // Exception in thread "basics.main" kotlin.KotlinNullPointerException
+    //	at nullsandexceptions.nullvalues.WolfKt.basics.main(Wolf.kt:55)
+    //	at nullsandexceptions.nullvalues.WolfKt.basics.main(Wolf.kt)
     var z = w!!.hunger
 
 }

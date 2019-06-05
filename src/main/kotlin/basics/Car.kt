@@ -1,12 +1,14 @@
+package basics
+
 open class Car(make: String, model: String) {
 
     open var carMake: String = ""
         get() = carMake.toUpperCase()
         set(value) {
-            field = value + "Setting Car"
+            field = value + "Setting basics.Car"
         }
     var carModel = model
-    var type: String = "Car"
+    var type: String = "basics.Car"
     open val color: String = "Color"
 
     fun accelerate() {

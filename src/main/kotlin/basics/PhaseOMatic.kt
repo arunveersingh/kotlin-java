@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
 
     val wordArray1 = arrayOf("24/7", "multi-tier", "B-to-B", "dynamic", "pervasive")

@@ -32,7 +32,7 @@ fun playSoundCoroutines(file: String){
 }
 
 /*
-fun main(){
+fun basics.main(){
     GlobalScope.launch { playBeats("x-x-x-x-x-x-x-x-x-x-x-", "toms.aiff") }
     playBeats("x------x-------x-------x----", "crash_cymbal.aiff")
 }*/

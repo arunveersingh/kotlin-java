@@ -1,4 +1,6 @@
-//fun main(args: Array<String>){
+package basics
+
+//fun basics.main(args: Array<String>){
 fun main(){
 
     val x = 1

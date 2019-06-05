@@ -1,3 +1,5 @@
+package basics
+
 fun main(){
     //var x: Int = 65.2 // wrong
 

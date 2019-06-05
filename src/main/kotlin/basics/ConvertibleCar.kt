@@ -1,3 +1,5 @@
+package basics
+
 class ConvertibleCar(var make:String, var model: String) : Car(make, model){
 
 
@@ -13,7 +15,7 @@ class ConvertibleCar(var make:String, var model: String) : Car(make, model){
     override var carMake: String =""
         get() = carMake.toLowerCase()
         set(value) {
-            field = value + "Setting Convertible Car"
+            field = value + "Setting Convertible basics.Car"
         }
 
     // You can override a val property in the superclass with a var property in the subclass.

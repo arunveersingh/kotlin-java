@@ -1,3 +1,5 @@
+package basics
+
 fun main() {
     var options: Array<String> = arrayOf("rock", "paper", "scissor")
     val compChoice = compChoice(options)

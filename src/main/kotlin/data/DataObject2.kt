@@ -28,7 +28,7 @@ data class DataObject2(val type: String): IDataObject2, ClassDataObject2("value 
     companion object {
 
         @JvmStatic
-        fun main(args: Array<String>) {
+        fun basics.main(args: Array<String>) {
             val dataObject2Java = DataObject2Java("test")
             dataObject2Java.value1 = ""
 

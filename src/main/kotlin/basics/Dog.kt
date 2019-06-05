@@ -1,3 +1,5 @@
+package basics
+
 class Dog(name: String, private var weight: Int, private val breed: String) {
 
     private val v_name = name.toUpperCase()

@@ -1,3 +1,5 @@
+package basics
+
 abstract class Animal {
 
     abstract val image: String

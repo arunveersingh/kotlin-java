@@ -23,13 +23,13 @@ fun main() {
     /**
      * This string cannot be converted to Int but will work if converted to Double
      *
-     * Exception in thread "main" java.lang.NumberFormatException: For input string: "5.67"
+     * Exception in thread "basics.main" java.lang.NumberFormatException: For input string: "5.67"
     at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
     at java.lang.Integer.parseInt(Integer.java:580)
     at java.lang.Integer.parseInt(Integer.java:615)
     at nullsandexceptions.exceptions.ExceptionsExample.stringToNumber(ExceptionsExample.kt:6)
-    at nullsandexceptions.exceptions.ExceptionsExampleKt.main(ExceptionsExample.kt:14)
-    at nullsandexceptions.exceptions.ExceptionsExampleKt.main(ExceptionsExample.kt)
+    at nullsandexceptions.exceptions.ExceptionsExampleKt.basics.main(ExceptionsExample.kt:14)
+    at nullsandexceptions.exceptions.ExceptionsExampleKt.basics.main(ExceptionsExample.kt)
      */
     ExceptionsExample().stringToNumber("5.67")
 
