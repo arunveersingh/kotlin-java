@@ -5,3 +5,7 @@ Dependencies
     testRuntime("org.junit.jupiter:junit-jupiter-engine:5.4.2")
 }`
 
+---
+KotlinTest library
+
+---
