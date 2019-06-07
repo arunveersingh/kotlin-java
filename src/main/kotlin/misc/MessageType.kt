@@ -11,4 +11,11 @@ fun main(){
     val messageFailure = MessageFailure("Boo!", Exception("Gone wrong."))
 
     var myMessageType : MessageType = messageFailure
+
+    var myMessage = when(myMessageType){
+        is MessageSuccess -> myMessageType.msg
+        is MessageFailure -> myMessageType.msg + " " + myMessageType.e.message
+    }
+
+    println("myMessage is $myMessage")
 }

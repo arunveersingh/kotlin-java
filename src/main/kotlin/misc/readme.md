@@ -30,3 +30,45 @@ sealed class to overcome the drawbacks of enum
 
 ---
 
+Nested class
+
+Inner Class
+
+Nested Class vs Inner Class
+
+---
+Object declarations and expressions
+
+Singleton
+
+---
+
+Class Objects
+
+Companion
+
+Singleton vs Class Objects vs Companion
+
+---
+Object Expressions
+
+---
+Extensions
+
+Extensions let you add new functions and properties to an existing type without you having to create a whole new subtype.
+
+---
+Using labels with break and continue
+
+---
+vararg
+
+spread operator
+
+---
+infix
+
+---
+**inline**
+
+Higher order functions can sometimes be slightly slower to run, but a lot of the time, you can improve their performance by prefixing the function with inline
