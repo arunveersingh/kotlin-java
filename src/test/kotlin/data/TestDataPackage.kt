@@ -1,7 +1,8 @@
 package data
 
-import org.junit.Assert
-import org.junit.Test
+import org.junit.jupiter.api.Assertions
+import org.junit.jupiter.api.Test
+
 
 class TestDataClassConcepts{
 
@@ -9,8 +10,8 @@ class TestDataClassConcepts{
     fun testDataObjectCreation(){
 
         var dObject = DataObject("first")
-        Assert.assertNotNull(dObject)
-        Assert.assertEquals(dObject.type, "first")
+        Assertions.assertNotNull(dObject)
+        Assertions.assertEquals(dObject.type, "first")
 
     }
 
